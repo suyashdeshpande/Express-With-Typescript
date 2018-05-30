@@ -1,0 +1,21 @@
+{
+  "name": "express-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prebuild":"del -rf dist",
+    "build":"tsc",
+    "prestart": "npm run build",
+    "start": "node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "typescript": "^2.8.3"
+  }
+}
