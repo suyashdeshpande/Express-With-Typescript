@@ -1,7 +1,8 @@
 import { Router,Request,Response } from 'express';
+import { Person } from 'models/person';
 const route = Router();
 
-let students = [
+let students:Person[] = [
     {name: 'Suyashk'},
     {name: 'Bill'}
 ]

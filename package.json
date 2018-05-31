@@ -4,15 +4,16 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "prebuild":"del -rf dist",
-    "build":"tsc",
+    "prebuild": "del -rf dist",
+    "build": "tsc",
     "prestart": "npm run build",
     "start": "node dist/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "express-ga-middleware": "^0.1.6"
   },
   "devDependencies": {
     "@types/express": "^4.11.1",

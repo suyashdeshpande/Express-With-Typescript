@@ -10,4 +10,7 @@ let teachers = [
 route.get('/', (req, res) => {
     res.send(teachers);
 });
+route.get('/:id', (req, res) => {
+    res.send(teachers[parseInt(req.params.id)].name);
+});
 //# sourceMappingURL=teacher.js.map
