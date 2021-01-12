@@ -16,7 +16,7 @@
     "express-ga-middleware": "^0.1.6"
   },
   "devDependencies": {
-    "@types/express": "^4.11.1",
+    "@types/express": "^4.17.10",
     "typescript": "^2.8.3"
   }
 }
